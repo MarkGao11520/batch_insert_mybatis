@@ -7,3 +7,12 @@
 - #### IO静态方法封装: ```src/main/com/gwf/batch/util/IOUtil ```
 
 - #### 批量插入方法: ```src/main/com/gwf/batch/mybatis/TestMybatis ```
+
+- #### 数据文件: ```src/main/resources/data```
+
+- #### 使用:
+```
+修改src/main/com/gwf/batch/mybatis/TestMybatis 的
+System.out.println(insertData(IOUtil.readFiles("/Users/gaowenfeng/Documents/IDE/batch_insert_mybatis/src/main/resources/data")));
+里的路径为自己的数据文件路径
+```

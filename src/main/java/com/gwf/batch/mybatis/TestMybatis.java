@@ -22,7 +22,7 @@ public class TestMybatis {
 
     @Test
    public void test() throws Exception {
-        System.out.println(insertData(IOUtil.readFiles("/Users/gaowenfeng/Documents/IDE/batch_insert_jdbc/src/main/resources/data")));
+        System.out.println(insertData(IOUtil.readFiles("/Users/gaowenfeng/Documents/IDE/batch_insert_mybatis/src/main/resources/data")));
    }
 
 
